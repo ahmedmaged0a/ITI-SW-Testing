@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: white;
+}
+li.first{
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    font: bolder 20px casftego;
+    color: dimgray;
+    opacity: 0.7;
+}
+.second{
+    text-decoration: none;
+    color:black;
+    cursor:pointer;
+}
+.second:hover{
+    text-decoration: none;
+    color: #981414;
+    cursor:pointer;
+}
+.second:active{
+    text-decoration: underline;
+    color: #0c3a8c;
+}
+#Home{
+    margin-left: 400px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+}
+#welcome {
+    font: bolder 50px Tahoma;
+}
+#btn1 , #btn7 , #btn8
+{
+    background-color: coral;
+    width: 120px;
+    padding: 10px;
+    color: white;
+}
+#btn2 , #btn4 , #btn5, #btn6
+{
+    background-color: black;
+    width: 120px;
+    padding: 10px;
+    color: white;
+}
+#btn1:hover , #btn2:hover ,#btn3:hover,#btn4:hover , #btn5:hover, #btn6:hover, #btn7:hover,#btn8:hover{
+    color:black;
+    cursor:pointer;
+    background-color: #bdbaba;
+}
+.div{
+    background-color: antiquewhite;
+}
+.dev1 , .Fresh_Fruits_div{
+
+    margin-left: 150px;
+    margin-top: 80px;
+}
+#img1{
+    width: 80%;
+    margin-left: 100px;
+}
+.Services > #about_services , .Fresh_Fruits > #about_Fruits ,.Test_div>#about_test{
+    text-align: center;
+}
+.fruits_3{
+    border:1px solid #bdbaba;
+    width: 350px;
+    height: 230px;
+}
+.fruits_name{
+    text-align: center;
+    color: orange;
+}
+.fruits_description{
+    text-align: center;
+}
+#Table_fr{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 20px;
+}
+.img_f{
+    width: 20%;
+    margin-left: 130px;
+}
+.Services , .Fresh_Fruits , .Test_div ,.form_conta,.end_info,.footer{
+    margin-top: 70px;
+}
+.Fruit_td:hover{
+    border-top: 5px solid orangered;
+}
+#btn3{
+    background-color: black;
+    margin-left: 46%;
+    align-items: center;
+    align-content: center;
+    color: white;
+    width: 120px;
+    padding: 7px;
+}
+#fresh_ora ,#fresh_gra ,#fresh_gua
+{
+    font: 30px Tahoma;
+    margin-bottom: 10px;
+}
+#about_gauva,#about_grapes,#about_orange
+{
+    margin-bottom: 30px;
+    font: 16px "Roboto Light";
+}
+
+.fruits_img{
+    position: relative;
+   left: 120px;
+    width: 60%;
+    align-items: center;
+}
+#fruits_ora{
+    position: relative;
+    left: 170px;
+    width: 60%;
+}
+.Fresh_Fruits_div
+{
+    margin-left: 250px;
+}
+.fruits_class
+{
+    margin-bottom: 50px;
+}
+.tasty_pics
+{
+    align-content: center;
+    width: 100%;
+    height: 400px;
+    background-image: url('images/tasty.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#text{
+    text-align: center;
+    color: white;
+    font: bolder 130px casftego;
+
+}
+#pic_test
+{
+    text-align: center;
+    padding-top: 30px;
+}
+#text2{
+font: normal 30px normal;
+    margin-bottom: 10px;
+}
+.form_conta {
+    display: flex;
+    width: 100%;
+    background: white;
+    padding-left: 80px;
+}
+
+.cont_header {
+    flex: 1;
+    padding: 20px;
+}
+
+.cont_header h2 {
+    font: bolder 30px "Roboto Thin";
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom :1px solid black;
+    font-size: 16px;
+}
+form input:hover , input:focus{
+    background-color: blanchedalmond;
+    outline: none;
+    border-bottom :1px solid black;
+}
+#texta{
+    margin-top: 50px;
+    padding-top:20px;
+    margin-bottom: 50px;
+}
+.end_info table {
+    width: 100%;
+    text-align: left;
+    margin-left: 100px;
+}
+.end_info th {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.end_info td {
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.img_p {
+    width: 30px;
+    height: 30px;
+}
+#follow{
+    display: flex;
+    margin-left: 100px;
+}
+.end_info input[type="text"] {
+    padding: 6px;
+    border: 1px solid;
+}
+.end_info input[type="text"]:hover {
+    padding: 10px;
+    border: 2px solid cadetblue;
+}
+#btn8{
+    margin-top: 10px;
+}
+#footer_id{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: silver;
+}
